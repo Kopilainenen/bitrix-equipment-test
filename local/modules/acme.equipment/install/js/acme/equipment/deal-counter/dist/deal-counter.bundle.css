@@ -1,0 +1,16 @@
+.acme-equipment-count {
+    display: flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 0 12px;
+    background: #f8f9fa;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.acme-equipment-count__label { color: #828b95; width: 38%; }
+.acme-equipment-count__value { color: #333; font-weight: 600; }
+.acme-equipment-count--highlighted {
+    background: #fff4cc;
+    border-left: 3px solid #f7a700;
+}
+
